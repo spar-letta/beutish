@@ -1,0 +1,80 @@
+.sec-div {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.VideoInput {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted rgb(30, 4, 4);
+  padding: 1px;
+  margin: 0 24px;
+  height: 300px;
+  background: rgba(128, 128, 128, 0.095);
+  border-radius: 5px;
+}
+
+.VideoInput_video {
+  width: 100%;
+  height: auto;
+}
+
+#file-in-field {
+  display: none;
+}
+
+.label-video {
+  width: 40%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  text-transform: capitalize;
+  background: rgba(0, 128, 0, 0.646);
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-data-fm {
+  /* background: grey; */
+  margin: 5px 0;
+}
+
+.form-data-fm h4 {
+  padding: 5px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.arrange-fields {
+  display: grid;
+  grid-template-columns: auto 350px;
+  margin: 10px 0;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bold;
+  align-items: center;
+}
+
+.arrange-fields input {
+  height: 30px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  border: 1px solid rgba(128, 128, 128, 0.776);
+}
+
+.arrange-fields textarea {
+  border: 1px solid rgba(128, 128, 128, 0.776);
+}
+
+.arrange-fields textarea:focus,
+.arrange-fields input:focus {
+  outline: none;
+}

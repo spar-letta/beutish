@@ -1,0 +1,25 @@
+.pwd-container {
+  position: relative;
+}
+
+.pwd-container input {
+  padding: 5px 30px 5px 10px;
+  font-size: 20px;
+}
+
+.pwd-container p {
+  cursor: pointer;
+  position: absolute;
+  width: 40px;
+  right: 12px;
+  top: 14px;
+}
+
+.crt-acc {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.feedbck-msg {
+  background: white;
+}
